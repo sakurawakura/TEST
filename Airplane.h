@@ -1,5 +1,3 @@
-#ifndef AIRPLANE_H
-#define AIRPLANE_H
 #include "AirVehicle.h"
 
 

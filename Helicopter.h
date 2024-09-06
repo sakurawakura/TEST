@@ -1,5 +1,3 @@
-#ifndef HELICOPTER_H
-#define HELICOPTER_H
 #include "AirVehicle.h"
 #include <string>
 

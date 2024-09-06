@@ -1,5 +1,3 @@
-#ifndef AIRVEHICLE_H
-#define AIRVEHICLE_H
 
 // defining the air vehical class
 class AirVehicle{
