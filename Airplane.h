@@ -15,7 +15,7 @@ public:
 
     Airplane(int w, int p); //including the weight and # people on board
 
-    set_fuel(int);// setting fuel
+    int set_fuel();// setting fuel
     
 
     int get_numPassengers() const; //get for passegerts and no need for set

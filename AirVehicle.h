@@ -21,6 +21,8 @@ public: //publics values that will be used in the code
 
     float get_fuel() const; //get for fuel
 
+    int set_fuel(); //set for fuel
+
     int get_numberOfFlights() const;   //get for the number of flights
 
     void refuel(); //sets the fuel to 100

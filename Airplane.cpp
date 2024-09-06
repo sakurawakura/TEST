@@ -16,7 +16,7 @@ int Airplane::get_numPassengers() const {
 void Airplane::reducePassengers(int x) {
 
 
-    numPassengers -= x; when funciton is called then it will decrement the passgengers
+    numPassengers -= x; //when funciton is called then it will decrement the passgengers
 
     if (numPassengers < 0) { //making sure if negative value then it is set to 0
 
