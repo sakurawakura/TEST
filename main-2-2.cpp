@@ -22,7 +22,7 @@ int main() {
 
     //printing the values of ther flight. 
     std::cout << "fuel after flight: " << a1.get_fuel() << "%" << std::endl;
-    std::cout << "Number of Flights: " << a1.get_number_flights() << std::endl;
+    std::cout << "Number of Flights: " << a1.get_numberOfFlights() << std::endl;
 
     // reduce passengers method check
     a1.reducePassengers(50); // checking to see if reduing 50 passengers will work
@@ -36,7 +36,9 @@ int main() {
 
     //print the values after fligth
     std::cout << "Fuel left after flight: " << a1.get_fuel() << "%" << std::endl;
-    std::cout << "number of Flights: " << a1.get_number_flights() << std::endl;
+    std::cout << "number of Flights: " << a1.get_numberOfFlights() << std::endl;
 
     return 0;
 }
+
+

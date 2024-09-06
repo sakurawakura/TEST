@@ -61,7 +61,7 @@ void Airplane::fly(int headwind, int minutes) { //pass thourght the headwind and
 
         set_fuel(fuel);
 
-        set_number_flights(get_number_flights() + 1); // add a count to the flight number and print fuel remaining
+        set_numberOfFlights(get_numberOfFlights() + 1); // add a count to the flight number and print fuel remaining
         std::cout << "flight complete the fuel remaining: " << fuel << "%" << std::endl;
 
 
@@ -69,3 +69,4 @@ void Airplane::fly(int headwind, int minutes) { //pass thourght the headwind and
         std::cout << "insufficient fuel to complete the flight." << std::endl;
     }
 }
+

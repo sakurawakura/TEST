@@ -55,7 +55,7 @@ void Helicopter::fly(int headwind, int minutes) {
     if (fuel >= 20) { // only continue if theres still mroe than 20kg fuel left
 
         set_fuel(fuel);
-        set_number_flights(get_number_flights() + 1); // add a flight to the counter
+        set_numberOfFlights(get_numberOfFlights() + 1); // add a flight to the counter
         std::cout << "Flight is completed the fuel remaining: " << fuel << "%" << std::endl; //print vlaues
 
 
@@ -63,3 +63,5 @@ void Helicopter::fly(int headwind, int minutes) {
         std::cout << "insufficient fuel to complete the flight." << std::endl;
     }
 }
+
+

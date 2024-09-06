@@ -9,7 +9,7 @@ int main() {
 
 // printing the starting fuel and the starting # of flights
     std::cout << "Initial fuel: " << av1.get_fuel() << "%" << std::endl;
-    std::cout << "Initial number of flights: " << av1.get_number_flights() << std::endl;
+    std::cout << "Initial number of flights: " << av1.get_numberOfFlights() << std::endl;
 
     //simiulating the flying
 
@@ -17,7 +17,7 @@ int main() {
 
     //printing the results of after simulation
     std::cout << "Fuel after flight: " << av1.get_fuel() << "%" << std::endl;
-    std::cout << "Number of flights: " << av1.get_number_flights() << std::endl;
+    std::cout << "Number of flights: " << av1.get_numberOfFlights() << std::endl;
 
     // set the fuel back to 100
     av1.refuel();
@@ -27,3 +27,5 @@ int main() {
 
     return 0;
 }
+
+

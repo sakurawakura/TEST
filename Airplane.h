@@ -23,4 +23,3 @@ public:
     void fly(int headwind, int minutes) override; // need to make new calculations so override
 };
 
-#endif

@@ -6,7 +6,7 @@ private: // private values for information hiding
 
     int weight;
     float fuel;
-    int number_flights;
+    int numberOfFlights;
 
 
 public: //publics values that will be used in the code
@@ -21,10 +21,11 @@ public: //publics values that will be used in the code
 
     float get_fuel() const; //get for fuel
 
-    int get_number_flights() const;   //get for the number of flights
+    int get_numberOfFlights() const;   //get for the number of flights
 
     void refuel(); //sets the fuel to 100
 
     virtual void fly(int headwind, int minutes); // the fly method (virtual) which includes headwind and time
 
 };
+
