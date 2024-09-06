@@ -16,7 +16,7 @@ public: //publics values that will be used in the code
     AirVehicle(int w); //including the weight parameter
 
     //get & set for weights
-    int get_weight() const; 
+    int get_weight() const;  //const doesnt change
     void set_weight(int w);
 
     float get_fuel() const; //get for fuel
